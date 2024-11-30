@@ -4,22 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo Davi Amaral</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+
 </head>
-<link rel="stylesheet" href="assets/style.css">
 <body>
     
-    <div class="apresentacao">
+    <header>
+        <nav>
+                <div class="links">
+                        <a class="link" href="#habilidades"><p>HABILIDADES</p></a>
+                        <a class="link" href="#formacao"><p>FORMAÇÃO</p></a>
+                        <a class="link" href="#projetos"><p>PROJETOS</p></a>
+                        <a class="link" href="#contato"><p>CONTATO</p></a>
+                    
+                </div>
+        </nav>
+    </header>
+
+    <hr>
+    <div class="apresentacao" id="apresentacao">
         <div class="titulo2"><p>Quem sou eu?</p></div>
         <div class="foto"></div>
-        <div class="text"><p style="color: white; font-size: 20px; text-indent: 40px;">  Olá, meu nome é <strong style="color: aquamarine;">Davi Amaral </strong>tenho 19 anos e sempre quis me especializar e trabalhar na área da tecnologia. Dei início a essa jornada quando ingressei no IFBA ao 14 anos no curso técnico integrado em eletrônica,  desde lá segui sempre apaixonado por programação, eletrônica, microcontroladores, matemática e IoT.
+        <div class="text"><p style="color: white; font-size: 15px; text-indent: 40px;">  Olá, meu nome é <strong style="color: aquamarine;">Davi Amaral </strong>tenho 19 anos, sou de Vitória da Conquista, e sempre quis me especializar e trabalhar na área da tecnologia. Dei início a essa jornada quando ingressei no IFBA ao 14 anos no curso técnico integrado em eletrônica,  desde lá segui sempre apaixonado por programação, eletrônica, microcontroladores, matemática e IoT.
         </p>
-        <p style="color: white; font-size: 20px; text-indent: 40px;">  Quando terminei o ensino médio no IFBA ingressei no curso de <strong style="color: aquamarine;">Engenharia Elétrica</strong> também no IFBA no qual pretendo enfatizar meus conhecimentos em eletrotécnica e automação. Desde que entre participei e participo de grupos estudantis voltados para as áreas da Engenharia Elétrica e Eletrônica. Automação e robótica, Telecomunicações e microondas, eletrônica analógica entre outros assuntos.</p>
-        <p style="color: white; font-size: 20px; text-indent: 40px;">  Pouco tempo depois de ingressar na faculdade também dei início ao curso Técnico em <strong style="color: aquamarine;">Desenvolvimento de Sistemas</strong> no SENAI, um curso voltado para área de TI, no qual desenvolvi diversar habilidades com lógica de programação, banco de dados, programação de aplicativos, desenvolvimento web e IoT.</p>    
+        <p style="color: white; font-size: 15px; text-indent: 40px;">  Quando terminei o ensino médio no IFBA ingressei no curso de <strong style="color: aquamarine;">Engenharia Elétrica</strong> também no IFBA no qual pretendo enfatizar meus conhecimentos em eletrotécnica e automação. Desde que entre participei e participo de grupos estudantis voltados para as áreas da Engenharia Elétrica e Eletrônica. Automação e robótica, Telecomunicações e microondas, eletrônica analógica entre outros assuntos.</p>
+        <p style="color: white; font-size: 15px; text-indent: 40px;">  Pouco tempo depois de ingressar na faculdade também dei início ao curso Técnico em <strong style="color: aquamarine;">Desenvolvimento de Sistemas</strong> no SENAI, um curso voltado para área de TI, no qual desenvolvi diversar habilidades com lógica de programação, banco de dados, programação de aplicativos, desenvolvimento web e IoT.</p>    
     </div>
     </div>
 
 <hr>
-<h1 style="display: flex; justify-content: center; color: white; font-family: Verdana;"><p>HABILIDADES</p></h1>
+<h1 style="display: flex; justify-content: center; color: white; font-family: Verdana;"  id="habilidades"><p>HABILIDADES</p></h1>
     <div class="habilidades">
         <div class="card">
             <div class="imagem">
@@ -70,12 +86,41 @@
                 <p>Word, Excel, Power Point</p>
             </div>
         </div>     
+
+        <div class="card">
+            <div class="imagem">
+                <img src="assets/AutoCad.png" class="imagens">
+            </div>
+            <div class="descricao">
+                <p  class="cursos">AutoCAD</p>
+                <p>Desenho auxiliador por computador</p>
+            </div>
+        </div>   
+
+        <div class="card">
+            <div class="imagem">
+                <img src="assets/canva.png" class="imagens">
+            </div>
+            <div class="descricao">
+                <p  class="cursos">Canva</p>
+                <p>Desde 2020 criando designs</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="imagem">
+                <img src="assets/comunicacao.png" class="imagens">
+            </div>
+            <div class="descricao">
+                <p  class="cursos">Comunicação</p>
+            </div>
+        </div>   
     </div>
 
 
     <hr>
-    <h1 style="display: flex; justify-content: center; color: white; font-family: Verdana;"><p>FORMAÇÃO</p></h1>
-    <div class="formacao">
+    <h1 style="display: flex; justify-content: center; color: white; font-family: Verdana;" id="formacao"><p>FORMAÇÃO</p></h1>
+    <div class="formacao" >
         <div class="card">
             <div class="imagem" ><img src="assets/ifba.png" class="imagens"></div>
             <div class="descricao">
@@ -100,6 +145,14 @@
             </div>
         </div>
 
+        <div class="card">
+            <div class="imagem"><img src="assets/senai.png"class="imagens"></div>
+            <div class="descricao">
+                <p class="cursos">Assistente Administrativo</p>
+                <p>532 horas</p>
+            </div>
+        </div>
+
 
         <div class="card">
             <div class="imagem"><img src="assets/expert cursos.png" class="imagens"></div>
@@ -120,8 +173,8 @@
 
     
     <hr>
-    <h1 style="display: flex; justify-content: center; color: white; font-family: Verdana;"><p>ALGUNS PROJETOS...</p></h1>
-<div class="projetos">  
+    <h1 style="display: flex; justify-content: center; color: white; font-family: Verdana;"id="projetos"><p>ALGUNS PROJETOS...</p></h1>
+<div class="projetos" >  
 
     <div class="card">
         <div class="imagem"><a target="_blank" href="https://dev-amaral.github.io/site-de-jogos-retro/"><img src="assets/retro games.jpeg" class="site" ></a></div>
@@ -134,7 +187,7 @@
     <div class="card">
             <div class="imagem"><a target="_blank" href="https://dev-amaral.github.io/game-estourar-bola/"><img src="assets/game estourar bolha.jpeg" class="site" ></a></div>
             <div class="descricao">
-                <p class="cursos"><a target="_blank" href="https://dev-amaral.github.io/game-estourar-bola/">Melhoria do jogo de estourar bolha</a></p>
+                <p class="cursos"><a target="_blank" href="https://dev-amaral.github.io/game-estourar-bola/">Melhoria do jogo de estourar bolhas</a></p>
             </div>
         </div>
 
@@ -146,8 +199,53 @@
             </div>
     </div>
 
+    <div class="card">
+        <div class="imagem"><a target="_blank" href="https://www.canva.com/design/DAFz3m8Gs8I/6Ujqp_kCuPwg426raZdiMg/edit?utm_content=DAFz3m8Gs8I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img src="assets/mentorIA.jpeg" class="site" ></a></div>
+        <div class="descricao">
+            <p class="cursos"><a target="_blank" href="https://www.canva.com/design/DAFz3m8Gs8I/6Ujqp_kCuPwg426raZdiMg/edit?utm_content=DAFz3m8Gs8I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Protótipo Mentor.IA</a></p>
+        </div>
+        </div>
+
+        <div class="card">
+            <div class="imagem"><a target="_blank" href="https://forms.gle/zoBzKPDgJLveZjrf8"><img src="assets/curso Python.png" class="site" ></a></div>
+            <div class="descricao">
+                <p class="cursos"><a target="_blank" href="https://forms.gle/zoBzKPDgJLveZjrf8">Curso de Python</a></p>
+            </div>
 </div>
 
+<div class="card">
+    <div class="imagem"><a target="_blank" href="https://www.canva.com/design/DAGXPoylXHc/98CrMOEmevkwbOoIliTyZg/edit?utm_content=DAGXPoylXHc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img src="assets/ecoGuardian.jpeg" class="site" ></a></div>
+    <div class="descricao">
+        <p class="cursos"><a target="_blank" href="https://www.canva.com/design/DAGXPoylXHc/98CrMOEmevkwbOoIliTyZg/edit?utm_content=DAGXPoylXHc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Protótipo Jogo EcoGuardian</a></p>
+    </div>
+</div>
+
+<div class="card">
+    <div class="imagem"><a target="_blank" href="https://replit.com/@DaviAmaral1/seguidor-de-linha#main.c"><img src="assets/elGranRobito.png" class="site" ></a></div>
+    <div class="descricao">
+        <p class="cursos"><a target="_blank" href="https://replit.com/@DaviAmaral1/seguidor-de-linha#main.c">Seguidor de Linha - CDR arena (Código)</a></p>
+    </div>
+</div>
+
+</div>
+
+<hr>
+
+<footer>
+    <div class="container-5" id="contato">
+      <div class="direitos">
+        <p></p>
+        <p>Todos os direitos reservados &copy; <b>Davi Amaral</b></p>
+      </div>
+      <div class="redes-sociais">
+        <a class="redes" target="_blank" href="https://api.whatsapp.com/send/?phone=5577981498096&text&type=phone_number&app_absent=0"> <i class="fab fa-whatsapp fa-5x"></i></a>
+        <a class="redes" target="_blank" href="https://github.com/Dev-Amaral"> <i class="fab fa-github fa-5x"></i></a>
+        <a class="redes" target="_blank" href="https://br.linkedin.com/in/davi-amaral-de-souza-cardoso-21b4922b3"> <i class="fab fa-linkedin fa-5x"></i></a>
+    
+      </div>
+    </div>
+    
+    </footer>
 
 </body>
 </html>
